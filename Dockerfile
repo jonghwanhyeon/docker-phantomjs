@@ -1,5 +1,7 @@
 FROM debian:buster-slim
 
+LABEL maintainer="hyeon0145@gmail.com"
+
 ENV PHANTOMJS_VERSION 2.1.1
 
 RUN apt-get update && apt-get install -y \
